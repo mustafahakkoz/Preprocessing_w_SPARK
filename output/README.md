@@ -2,6 +2,7 @@
 
 A json file (col_17M_calculations_rf.json in our example) will be produced in a format defined in mainpage of repository. For an example:
 
+```json
 {  
 	"id":"1001846898876133376",  
 	"user_features_rf":{  
@@ -15,5 +16,6 @@ A json file (col_17M_calculations_rf.json in our example) will be produced in a 
 		"degreeCentrality":{"ekonomi":0.0,"kultursanat":0.0,"politika":0.0017036,"spor":0.0,"teknoloji":0.0},  
 		"pageRank":{"ekonomi":0.1468788,"kultursanat":0.0100135,"politika":0.0029293,"spor":0.0198249,"teknoloji":0.0028019}}  
 }
+```
 
 File name can be changed in Main.py.
