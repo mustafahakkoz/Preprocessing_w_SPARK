@@ -34,6 +34,7 @@ or download with dependencies https://jar-download.com/artifacts/org.mongodb.spa
 4. edges file is a json file with columns "Source" and "Target", which defines a relationship between them.
 
 ### STRUCTURE OF OUTPUT JSON  
+```json
 root  
  |-- id: string (nullable = true)  
  |-- user_features: struct (nullable = true)  
@@ -69,5 +70,5 @@ root
  |    |-- pageRank: struct (nullable = true)  
  |    |    |-- category1: double (nullable = true)  
  |    |    |-- category2: double (nullable = true)  
-
+```
 
