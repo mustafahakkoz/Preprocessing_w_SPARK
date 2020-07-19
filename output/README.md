@@ -1,9 +1,19 @@
 ## Output folder
 
-A json file (col_17M_calculations_rf.json in our example) will be produced in a format like this:
+A json file (col_17M_calculations_rf.json in our example) will be produced in a format defined in mainpage of repository. For an example:
 
-{"id":"1001846898876133376","user_features_rf":{"dict_activeness_1":{"ekonomi":0.4084507,"kultursanat":0.4583333,"politika":0.8732394,"spor":0.3802817,"teknoloji":0.3333333},"dict_activeness_2":{"ekonomi":0.0178634,"kultursanat":0.0250343,"politika":0.1750344,"spor":0.0138494,"teknoloji":0.0117851},"dict_activeness_3":{"ekonomi":0.0112987,"kultursanat":0.0123303,"politika":0.1550305,"spor":0.0060264,"teknoloji":0.0044323},"dict_focus_rate":{"ekonomi":0.072238,"kultursanat":0.1033994,"politika":0.7209632,"spor":0.0552408,"teknoloji":0.0481586}},"centralities_rf":{"betweennessCentrality":{"ekonomi":0.5,"kultursanat":0.0,"politika":0.0,"spor":0.0,"teknoloji":0.0},"closenessCentrality":{"ekonomi":0.0,"kultursanat":0.0,"politika":0.1336288,"spor":0.0,"teknoloji":0.0},"degreeCentrality":{"ekonomi":0.0,"kultursanat":0.0,"politika":0.0017036,"spor":0.0,"teknoloji":0.0},"pageRank":{"ekonomi":0.1468788,"kultursanat":0.0100135,"politika":0.0029293,"spor":0.0198249,"teknoloji":0.0028019}}}
-{"id":"1020005359757520897","user_features_rf":{"dict_activeness_1":{"ekonomi":0.1830986,"kultursanat":0.5694444,"politika":0.7323944,"spor":0.9014085,"teknoloji":0.75},"dict_activeness_2":{"ekonomi":0.0045534,"kultursanat":0.0394376,"politika":0.0412655,"spor":0.1988636,"teknoloji":0.0766031},"dict_activeness_3":{"ekonomi":0.0012911,"kultursanat":0.0241334,"politika":0.0306544,"spor":0.2051153,"teknoloji":0.0648224},"dict_focus_rate":{"ekonomi":0.0126336,"kultursanat":0.111759,"politika":0.1166181,"spor":0.5442177,"teknoloji":0.2147716}},"centralities_rf":{"betweennessCentrality":{"ekonomi":0.5,"kultursanat":0.0,"politika":0.0,"spor":0.0,"teknoloji":0.0},"closenessCentrality":{"ekonomi":0.0,"kultursanat":0.0,"politika":0.0,"spor":0.0,"teknoloji":0.0},"degreeCentrality":{"ekonomi":0.0,"kultursanat":0.0,"politika":0.0,"spor":0.0,"teknoloji":0.0},"pageRank":{"ekonomi":0.0,"kultursanat":0.0,"politika":0.0,"spor":0.0,"teknoloji":0.0}}}
-{"id":"1024538972763115520","user_features_rf":{"dict_activeness_1":{"ekonomi":0.056338,"kultursanat":0.1111111,"politika":0.2676056,"spor":0.0704225,"teknoloji":0.1527778},"dict_activeness_2":{"ekonomi":0.0021016,"kultursanat":0.0041152,"politika":0.011348,"spor":0.0017756,"teknoloji":0.0065858},"dict_activeness_3":{"ekonomi":1.833E-4,"kultursanat":4.914E-4,"politika":0.0030802,"spor":1.431E-4,"teknoloji":0.0011352},"dict_focus_rate":{"ekonomi":0.08,"kultursanat":0.16,"politika":0.44,"spor":0.0666667,"teknoloji":0.2533333}},"centralities_rf":{"betweennessCentrality":{"ekonomi":0.5,"kultursanat":0.0,"politika":0.0,"spor":0.0,"teknoloji":0.0},"closenessCentrality":{"ekonomi":0.0,"kultursanat":0.0,"politika":0.6,"spor":0.0,"teknoloji":1.0},"degreeCentrality":{"ekonomi":0.0,"kultursanat":0.0,"politika":0.0017036,"spor":0.0,"teknoloji":0.0021552},"pageRank":{"ekonomi":0.1468788,"kultursanat":0.0100135,"politika":0.0035106,"spor":0.0198249,"teknoloji":0.0051835}}}
+{  
+>"id":"1001846898876133376",  
+>"user_features_rf":{  
+>>"dict_activeness_1":{"ekonomi":0.4084507,"kultursanat":0.4583333,"politika":0.8732394,"spor":0.3802817,"teknoloji":0.3333333},  
+>>"dict_activeness_2":{"ekonomi":0.0178634,"kultursanat":0.0250343,"politika":0.1750344,"spor":0.0138494,"teknoloji":0.0117851},  
+>>"dict_activeness_3":{"ekonomi":0.0112987,"kultursanat":0.0123303,"politika":0.1550305,"spor":0.0060264,"teknoloji":0.0044323},  
+>>"dict_focus_rate":{"ekonomi":0.072238,"kultursanat":0.1033994,"politika":0.7209632,"spor":0.0552408,"teknoloji":0.0481586}},  
+>"centralities_rf":{  
+>>"betweennessCentrality":{"ekonomi":0.5,"kultursanat":0.0,"politika":0.0,"spor":0.0,"teknoloji":0.0},  
+>>"closenessCentrality":{"ekonomi":0.0,"kultursanat":0.0,"politika":0.1336288,"spor":0.0,"teknoloji":0.0},  
+>>"degreeCentrality":{"ekonomi":0.0,"kultursanat":0.0,"politika":0.0017036,"spor":0.0,"teknoloji":0.0},  
+>>"pageRank":{"ekonomi":0.1468788,"kultursanat":0.0100135,"politika":0.0029293,"spor":0.0198249,"teknoloji":0.0028019}}  
+>>}
 
-Its name can be changed in Main.py.
+File name can be changed in Main.py.
