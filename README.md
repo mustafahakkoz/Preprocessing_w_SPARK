@@ -1,4 +1,4 @@
-## Preprocessing with SPARK
+## Preprocessing Pipeline with MongoDB - Spark - Neo4j
 
 Data manipulation and feature extraction with SPARK, network calcuations with Neo4j.
 
